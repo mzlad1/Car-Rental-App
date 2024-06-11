@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectAndroid"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".report"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".UpdateCarOwner"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".rentedCarsOwner"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".deleteCar"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".ownerCars"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".userProfileOwner"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".rentedCarsUser"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".userProfile"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".payPage"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".carDetails"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".userCars"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".MainPageUser"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".mainPageOwners"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".signUpOwner"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".addCar"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".signin"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
